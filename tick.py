@@ -31,12 +31,12 @@ def Tick_print(tick_board_r=[]) :
             tick_board[i] = "O"
 
     #print the decoding game board
-    print("#####<0>#####<1>#######<2>#######") 
-    print("##   {}  ##   {}  ##    {}  ##".format(tick_board[0],tick_board[1],tick_board[2])) 
+    print("#####<0>##### <1>#######<2>########") 
+    print("##   {}   ##   {}  ##   {}  #####".format(tick_board[0],tick_board[1],tick_board[2])) 
     print("#####<3>#########<4>######<5>#####")
     print("##   {}  ##   {}  ##    {}   #####".format(tick_board[3],tick_board[4],tick_board[5])) 
     print("######<6>#######<7>#######<8>#####")
-    print("##   {}  ##   {}  ##    {}   ##".format(tick_board[6],tick_board[7],tick_board[8])) 
+    print("##   {}  ##   {}  ##    {}   #####".format(tick_board[6],tick_board[7],tick_board[8])) 
     print("##################################") 
     print("") 
     print("")

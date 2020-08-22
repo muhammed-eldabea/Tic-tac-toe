@@ -5,9 +5,10 @@ Tic-tac-toe in python
 
 ## APIs used 
 * Tick_init() : used to creat the board and return: 
-       * list of zeros with 9 in length 
-       * a X player value >> 1 
-       * a O player Value >> 2 
+  * list of zeros with 9 in length 
+  * a X player value >> 1 
+  * a O player Value >> 2
+ 
 * Tick_print(tick_board_r=[]) : used to print the current state of the board 
 * Tick_CheckForAvilableGames  : Check for available position and print all of thes position 
 * Tick_CheckForaWinner        : check for a winner player 

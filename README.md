@@ -13,3 +13,9 @@ Tic-tac-toe in python
 * Tick_CheckForAvilableGames  : Check for available position and print all of thes position 
 * Tick_CheckForaWinner        : check for a winner player 
 * Tick_play(tick_board=[],Player_role=0,position=0) : take an action on the board depending on the player and a given position 
+
+### To Run The Game : 
+ '''
+ # python code 
+ >>python ./tick.py 
+ '''
